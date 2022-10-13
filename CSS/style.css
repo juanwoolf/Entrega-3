@@ -64,8 +64,7 @@
 #formulario_general {
   font-family: "sausage";
   background-color: #198754;
-  height: 70vh;
-  font-size: 2vw,!important; }
+  height: 90vh; }
 
 #formulario_nombre {
   border-radius: 30px solid black,  !important;
