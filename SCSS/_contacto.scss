@@ -26,11 +26,9 @@
 #formulario_general {
     font-family:$fontSausage;
     ;
-    // padding-top: 400px;
-    // margin-top: 10px;
     background-color:$colorFormulario;
     height: 90vh;
-    
+    width: 100%;
 
 }
 
@@ -49,7 +47,7 @@
 
 #botones_reseteo{
     bottom{@include estilo-boton;
-    }
+    } padding-right: 100px;
    
 }
 
