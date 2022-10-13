@@ -123,7 +123,9 @@
 #video_loop {
   width: 100vw;
   height: auto;
-  margin: 0; }
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 3.5%; }
 
 #container_video {
   width: 100%;
@@ -150,7 +152,7 @@
   padding: 0;
   margin: 0;
   border: 0;
-  width: 100vw; }
+  width: 100%; }
 
 .resena-avance1 {
   background-image: url(../assets/images/cine-proyector.webp);
