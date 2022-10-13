@@ -1,0 +1,72 @@
+@import "./variables";
+@import "./mixins";
+@import "./elementosCompartidos";
+@import "./contacto";
+@import "./index";
+@import "./avances";
+
+html{overflow-x: hidden;}
+
+
+// *    -------MEDIA QUERIES-- */
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    #footer_index {
+        height: 40vh;
+        width: 100vw;
+        margin-bottom: 0;
+
+    }
+
+    #footer_contacto {
+        height: auto;
+        text-decoration: none;
+        
+    }
+
+}
+
+
+
+@media only screen and (min-width: 574px) and (max-width:768px) {
+    #footer_index {
+        height: auto;
+        position: absolute;
+        width: 100vw;
+
+    }
+
+
+    #footer_contacto { @include reset;
+        height: 15vh;
+        text-align: center;
+       
+
+    }
+
+    .body-contacto {
+        width: 100vw;
+        height: 100vh,  !important;
+        background-color: rgb(15, 18, 15);
+    }
+
+    #formulario_general {
+        height: 70vh;
+
+    }
+
+    #section_info_3 {
+        font-family: $fontSausage;
+        font-size: 1em
+    }
+
+
+
+}
+
+@media only screen and (max-width:574px) {
+    #section_info_3 {
+        font-family: $fontSausage;
+        font-size: 1em
+    }
+
+}  
