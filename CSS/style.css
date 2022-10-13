@@ -109,24 +109,25 @@
 
 #video_loop {
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding-left: 20px; }
+  height: auto;
+  margin: 0; }
 
 #container_video {
-  width: 100vw;
+  width: 75%;
   border: 0;
   padding: 0; }
   #container_video h2 {
-    font-family: "sausage", font-size 1.3rem;
+    font-family: "sausage", font-size 1.5vw;
     color: white; }
   #container_video p {
-    font-family: "sausage", font-size 50px;
+    font-family: "sausage", font-size 3vw;
     color: #da6314;
     text-align: start; }
 
 .columna-video {
-  width: 50%; }
+  width: 100%;
+  height: auto;
+  padding: 0; }
 
 .body-avances {
   background-image: url(../assets/images/fondo-avances.webp);
