@@ -248,9 +248,7 @@ html {
 @media only screen and (max-width: 574px) {
   #section_info_3 {
     font-family: "sausage";
-    font-size: 1em; }
-  main div div img {
-    display: none; } }
+    font-size: 1em; } }
 
 #formulario_general {
   height: 90vh; }
