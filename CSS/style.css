@@ -172,12 +172,12 @@ col {
   flex-shrink: 1; }
 
 .texto-video h2 u {
-  font-size: 1.5rem;
+  font-size: 3vw;
   text-align: center; }
 
 .texto-video p {
-  font-size: 2rem;
-  text-align: start; }
+  font-size: 2vw;
+  text-align: center; }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   #container_avances {
