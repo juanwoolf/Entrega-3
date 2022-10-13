@@ -32,7 +32,7 @@
 
 #section_info_3 {
   font-family: "sausage";
-  font-size: 1.2em; }
+  font-size: 20px; }
 
 .link-contacto {
   background-color: blue; }
@@ -54,7 +54,8 @@
 #footer_contacto {
   height: auto;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: #dc3545; }
 
 .animate__hinge {
   animation-delay: 3s;
@@ -92,6 +93,9 @@
   border-radius: 0.25rem;
   color: yellow, !important;
   background-color: rgba(255, 215, 196, 0.562); }
+
+#via {
+  width: 100%; }
 
 .body-index {
   width: 100vw;
@@ -242,4 +246,9 @@ html {
 @media only screen and (max-width: 574px) {
   #section_info_3 {
     font-family: "sausage";
-    font-size: 1em; } }
+    font-size: 1em; }
+  main div div img {
+    display: none; } }
+
+#formulario_general {
+  height: 90vh; }

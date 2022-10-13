@@ -55,14 +55,14 @@
 
   <main class="container-fluid  p-0">
     <div class="row p-0 m-0 text-center">
-      <div class="col-8 bg-dark text-center border-0 m-0 p-0">
+      <div class="col-8 bg-dark text-center border-0 m-0 p-0 d-block">
         <img src="../assets/images/download.webp" alt="monsters" class="d-block w-100 h-auto">
       </div>
       
-      <div class="col-4 bg-success border-2">
-      <section id="section_info_3" class="text-start text-justify text-wrap">
-        <h4 class="animate_animated animate__hinge"><u>Tu opinión nos importa</u></h3>
-        <p>Nos fascina saber quién nos lee, sus opiniones, recomendaciones o cualquier comentario que contribuya a la
+      <div class="col-4 bg-success border-2 d-block">
+        <section id="section_info_3" class="text-start text-justify text-wrap">
+          <h4 class="animate_animated animate__hinge"><u>Tu opinión nos importa</u></h3>
+          <p class="text-break">Nos fascina saber quién nos lee, sus opiniones, recomendaciones o cualquier comentario que contribuya a la
           página.
           Por favor, escribinos.</p>
 
@@ -104,24 +104,24 @@
       </div>
       <div class="row py-3">
           <div class="col-6">
-            <h4>Cuentenos cómo conocio el sitio</h4>
+            <h5>Cuentenos cómo conocio el sitio</h4>
               <label for="modo">Gracias</label>
-              <select name="A traves de" id="via">
-                <option value="amigue"> a un amigo/a</option>
-                <option value="intenet">a Google u otro buscador</option>
-                <option value="otro"> Otro</option>
+            <select name="A traves de" id="via">
+              <option value="amigue"> a un amigo/a</option>
+              <option value="intenet">a Google u otro buscador</option>
+              <option value="otro"> Otro</option>
               </select>
           </div>
           <div class="col-6 py-1 d-inline" id="formulario_comentario">
             <h4>Escriba su consulta/comentario</h4>
               <div class="mb-3">
-                <label for="consulta" class="form-label">
+                <label for="consulta" class="form-label overflow-hidden">
                   <textarea class="form-control" rows="3"></textarea></label>
               </div>
           </div>
       </div>
-      <div class="row align-self-center h-auto ">
-        <div class="col-12 pb-5 mb-5d" id="botones_reseteo">
+      <div class="row align-self-center h-auto">
+        <div class="col-12 pb-3" id="botones_reseteo">
           <button type="submit" input id="enviar">Enviar</button>
           <button type="reset" input id="reset">Limpiar</button>
           
@@ -137,17 +137,18 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
   <footer id="footer_contacto">
-    <div class="light bg-danger m-0 pb-2 mt-2 d-flex flex-row justify-content-center align-items-center">
-      <div class="align-self-start">
-        <ul>
-          <li>
-            <a class="nav-link nav-link d-inline-block align-self-auto" aria-current="page" href="#">contacto</a>
+    <div class="light bg-danger m-0 pb-2 mt-2">
+      <div>
+        <ul class="d-flex flex-row justify-content-evenly align-items-center">
+          <li><a class="d-inline-block text-decoration-none" aria-current="page" href="./contacto.html">contacto</a>
+            
           </li>
-          <li class="nav-item">
-            <a class="nav-link d-inline-block" href="#">ayuda</a>
+          <li class="text-decoration-none"><a class="d-inline-block text-decoration-none" href="#">ayuda</a>
+            
           </li>
-          <a class="nav-link nav-link d-inline-block" aria-current="page" href="#">términos y condiciones</a>
-          
+          <li><a class="d-inline-block text-decoration-none" href="#">términos y condiciones</a>
+            
+          </li>
 
 
         </ul>
