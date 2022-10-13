@@ -19,7 +19,7 @@ html{overflow-x: hidden;}
 
     #footer_contacto {
         height: auto;
-        text-decoration: none;
+        text-decoration: none,!important;
         
     }
 
@@ -39,6 +39,7 @@ html{overflow-x: hidden;}
     #footer_contacto { @include reset;
         height: 15vh;
         text-align: center;
+        text-decoration: none,!important;
        
 
     }
@@ -67,6 +68,19 @@ html{overflow-x: hidden;}
     #section_info_3 {
         font-family: $fontSausage;
         font-size: 1em
+        
+    }
+    #footer_contacto{
+        text-decoration: none,!important;
+        div{
+            ul{
+                li{
+                    a{text-decoration-color: none;
+
+                    }
+                }
+            }
+        }
     }
 // main{ div{ div{ img {display: none;}
 

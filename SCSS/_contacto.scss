@@ -10,11 +10,21 @@
 #footer_contacto { 
     height: auto;
     text-align: center;
-    text-decoration: none;
     background-color:#dc3545;
+    text-decoration: none,!important;
+        div{text-decoration: none;
+            ul{text-decoration: none;
+                li{text-decoration: none;
+                    a{text-decoration-color: none; text-decoration: none;
+
+                    }
+                }
+            }
+        }
+    }
    
 
-}
+
 
 
 .animate__hinge {
@@ -47,7 +57,7 @@
 
 #botones_reseteo{
     bottom{@include estilo-boton;
-    } padding-right: 100px;
+    } 
    
 }
 

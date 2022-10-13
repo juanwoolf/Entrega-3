@@ -54,8 +54,17 @@
 #footer_contacto {
   height: auto;
   text-align: center;
-  text-decoration: none;
-  background-color: #dc3545; }
+  background-color: #dc3545;
+  text-decoration: none,!important; }
+  #footer_contacto div {
+    text-decoration: none; }
+    #footer_contacto div ul {
+      text-decoration: none; }
+      #footer_contacto div ul li {
+        text-decoration: none; }
+        #footer_contacto div ul li a {
+          text-decoration-color: none;
+          text-decoration: none; }
 
 .animate__hinge {
   animation-delay: 3s;
@@ -75,26 +84,24 @@
   display: block;
   text-align: center; }
 
-#botones_reseteo {
-  padding-right: 100px; }
-  #botones_reseteo bottom {
-    padding: 6px 12px;
-    border: 3px solid transparent;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    color: yellow, !important;
-    background-color: rgba(255, 215, 196, 0.562); }
+#botones_reseteo bottom {
+  padding: 6px 12px;
+  border: 3px solid transparent;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  color: yellow, !important;
+  background-color: rgba(255, 215, 196, 0.562); }
 
 #via {
   width: 100%; }
@@ -114,12 +121,12 @@
   width: 100vw; }
 
 #video_loop {
-  width: 100%;
+  width: 100vw;
   height: auto;
   margin: 0; }
 
 #container_video {
-  width: 75%;
+  width: 100%;
   border: 0;
   padding: 0; }
   #container_video h2 {
@@ -222,7 +229,7 @@ html {
     margin-bottom: 0; }
   #footer_contacto {
     height: auto;
-    text-decoration: none; } }
+    text-decoration: none,!important; } }
 
 @media only screen and (min-width: 574px) and (max-width: 768px) {
   #footer_index {
@@ -234,7 +241,8 @@ html {
     padding: 0;
     box-sizing: border-box;
     height: 15vh;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none,!important; }
   .body-contacto {
     width: 100vw;
     height: 100vh,  !important;
@@ -248,7 +256,11 @@ html {
 @media only screen and (max-width: 574px) {
   #section_info_3 {
     font-family: "sausage";
-    font-size: 1em; } }
+    font-size: 1em; }
+  #footer_contacto {
+    text-decoration: none,!important; }
+    #footer_contacto div ul li a {
+      text-decoration-color: none; } }
 
 #formulario_general {
   height: 90vh; }
