@@ -3,10 +3,10 @@
  }
 
 #container_video{width: 100vw; border: 0; padding: 0;;
-                h2{ font-family: $fontShadow, font-size 1.3rem; color: white
+                h2{ font-family: $fontSausage, font-size 1.3rem; color: white
 
                 };
-                p{font-family: $fontShadow,font-size 50px;color: wheat;text-align: center
+                p{font-family: $fontSausage,font-size 50px;color: rgb(218, 99, 20);text-align:start
 
                 }
 
@@ -47,8 +47,8 @@
                     p{font-family: $fontShadow,font-size 1.5rem;color: wheat;text-align: justify;}
 }                   col{flex-shrink: 1;}
 
-.texto-video {h2{ u{font-size: 3vw; text-align: center;}}
-            p{font-size:2vw; text-align: center; }}
+.texto-video {h2{ u{font-size: 4vw; text-align: center;color:rgb(63, 39, 35)}}
+            p{font-size:3vw; text-align: center; color: rgb(44, 165, 42); }}
 
 
 //    --media queries--

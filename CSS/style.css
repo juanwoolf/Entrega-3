@@ -118,12 +118,12 @@
   border: 0;
   padding: 0; }
   #container_video h2 {
-    font-family: "shadow", font-size 1.3rem;
+    font-family: "sausage", font-size 1.3rem;
     color: white; }
   #container_video p {
-    font-family: "shadow", font-size 50px;
-    color: wheat;
-    text-align: center; }
+    font-family: "sausage", font-size 50px;
+    color: #da6314;
+    text-align: start; }
 
 .columna-video {
   width: 50%; }
@@ -172,12 +172,14 @@ col {
   flex-shrink: 1; }
 
 .texto-video h2 u {
-  font-size: 3vw;
-  text-align: center; }
+  font-size: 4vw;
+  text-align: center;
+  color: #3f2723; }
 
 .texto-video p {
-  font-size: 2vw;
-  text-align: center; }
+  font-size: 3vw;
+  text-align: center;
+  color: #2ca52a; }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   #container_avances {
