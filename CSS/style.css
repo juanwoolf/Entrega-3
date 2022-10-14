@@ -192,12 +192,12 @@ col {
   flex-shrink: 1; }
 
 .texto-video h2 u {
-  font-size: 4vw;
+  font-size: 1.2rem;
   text-align: center;
   color: #3f2723; }
 
 .texto-video p {
-  font-size: 3vw;
+  font-size: 1rem;
   text-align: center;
   color: #2ca52a; }
 
@@ -235,7 +235,14 @@ html {
     margin-bottom: 0; }
   #footer_contacto {
     height: auto;
-    text-decoration: none,!important; } }
+    text-decoration: none,!important; }
+  .body-index {
+    width: 100vw;
+    height: 180vh; }
+  #carousel_index {
+    height: 50vh;
+    background-image: url(../assets/images/bgr-terror.jpg);
+    background-repeat: round; } }
 
 @media only screen and (min-width: 574px) and (max-width: 768px) {
   #footer_index {
@@ -257,16 +264,31 @@ html {
     height: 70vh; }
   #section_info_3 {
     font-family: "sausage";
-    font-size: 1em; } }
+    font-size: 1em; }
+  #carousel_index {
+    height: 50vh;
+    background-image: url(../assets/images/bgr-terror.jpg);
+    background-repeat: round; } }
 
 @media only screen and (max-width: 574px) {
+  #carousel_index {
+    height: 30vh;
+    background-image: url(../assets/images/bgr-terror.jpg);
+    background-repeat: round; }
   #section_info_3 {
     font-family: "sausage";
     font-size: 1em; }
   #footer_contacto {
-    text-decoration: none,!important; }
-    #footer_contacto div ul li a {
-      text-decoration-color: none; } }
+    text-decoration: none,!important; } }
 
 #formulario_general {
   height: 90vh; }
+
+#footer_index {
+  height: 10vh;
+  position: absolute;
+  width: 100vw; }
+
+.body-index {
+  width: 100vw;
+  height: 150vh; }
