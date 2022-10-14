@@ -49,7 +49,7 @@
 .body-contacto {
   width: 100vw;
   height: 150vh,  !important;
-  background-color: #0f120f; }
+  background-color: #dc3545; }
 
 #footer_contacto {
   height: auto;
@@ -259,7 +259,7 @@ html {
   .body-contacto {
     width: 100vw;
     height: 100vh,  !important;
-    background-color: #0f120f; }
+    background-color: #dc3545; }
   #formulario_general {
     height: 70vh; }
   #section_info_3 {
