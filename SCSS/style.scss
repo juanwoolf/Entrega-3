@@ -26,11 +26,7 @@ html{overflow-x: hidden;}
         width: 100vw;
         height: 180vh;
     }
-    #carousel_index{
-        height: 50vh;
-        background-image: url(../assets/images/bgr-terror.jpg);
-        background-repeat: round;
-    }
+   
 }
 
 
@@ -67,21 +63,13 @@ html{overflow-x: hidden;}
         font-family: $fontSausage;
         font-size: 1em
     }
-    #carousel_index{
-        height: 50vh;
-        background-image: url(../assets/images/bgr-terror.jpg);
-        background-repeat: round;
-    }
+   
 
 
 }
 
 @media only screen and (max-width:574px) {
-    #carousel_index{
-        height: 30vh;
-        background-image: url(../assets/images/bgr-terror.jpg);
-        background-repeat: round;
-    }
+  
     #section_info_3 {
         font-family: $fontSausage;
         font-size: 1em
@@ -99,13 +87,9 @@ html{overflow-x: hidden;}
             }
         }
     }
-// main{ div{ div{ img {display: none;}
-
-// }
-
-// }
-
-// }
+    .carousel-indicators [data-bs-target]{
+        display: none;
+    }
 }  
 
 #formulario_general {
@@ -123,3 +107,4 @@ html{overflow-x: hidden;}
     width: 100vw;
     height: 150vh;
 }
+

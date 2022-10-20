@@ -38,10 +38,13 @@
 
 }
 
+.slide-texto{ font-family:Arial, Helvetica, sans-serif; color: orange;
 
+}
 
 
 @each $nombre,$color in $estilo-nav{
     .link-#{$nombre} {background-color: $color}
 
 } 
+

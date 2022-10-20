@@ -34,6 +34,10 @@
   font-family: "sausage";
   font-size: 20px; }
 
+.slide-texto {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange; }
+
 .link-contacto {
   background-color: blue; }
 
@@ -112,12 +116,34 @@
 
 .body-index {
   width: 100vw;
-  height: 200vh; }
+  height: 100%; }
 
 #carousel_index {
-  height: 72vh;
+  height: auto;
   background-image: url(../assets/images/bgr-terror.jpg);
   background-repeat: round; }
+  #carousel_index .fa-arrow-right {
+    color: orange; }
+  #carousel_index .fa-arrow-left {
+    color: orange; }
+  #carousel_index .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: orange;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%; }
 
 #footer_index {
   height: 10vh;
@@ -236,11 +262,7 @@ html {
     text-decoration: none,!important; }
   .body-index {
     width: 100vw;
-    height: 180vh; }
-  #carousel_index {
-    height: 50vh;
-    background-image: url(../assets/images/bgr-terror.jpg);
-    background-repeat: round; } }
+    height: 180vh; } }
 
 @media only screen and (min-width: 574px) and (max-width: 768px) {
   #footer_index {
@@ -262,22 +284,16 @@ html {
     height: 70vh; }
   #section_info_3 {
     font-family: "sausage";
-    font-size: 1em; }
-  #carousel_index {
-    height: 50vh;
-    background-image: url(../assets/images/bgr-terror.jpg);
-    background-repeat: round; } }
+    font-size: 1em; } }
 
 @media only screen and (max-width: 574px) {
-  #carousel_index {
-    height: 30vh;
-    background-image: url(../assets/images/bgr-terror.jpg);
-    background-repeat: round; }
   #section_info_3 {
     font-family: "sausage";
     font-size: 1em; }
   #footer_contacto {
-    text-decoration: none,!important; } }
+    text-decoration: none,!important; }
+  .carousel-indicators [data-bs-target] {
+    display: none; } }
 
 #formulario_general {
   height: 90vh; }

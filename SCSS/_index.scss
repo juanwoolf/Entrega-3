@@ -1,12 +1,37 @@
 .body-index{
     width: 100vw;
-    height: 200vh;
+    height: 100%;
 }
 
 #carousel_index{
-    height: 72vh;
+    height: auto;
     background-image: url(../assets/images/bgr-terror.jpg);
     background-repeat: round;
+    .fa-arrow-right{color: orange;
+
+    }
+    .fa-arrow-left{color: orange;
+
+    }
+    .carousel-indicators [data-bs-target] {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color:orange;
+        background-clip: padding-box;
+        border: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+        border-radius: 100%;}
+        
 }
 
 #footer_index {
@@ -15,4 +40,3 @@
     width: 100vw;
 
 }
-
