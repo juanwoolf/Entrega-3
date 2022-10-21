@@ -249,6 +249,17 @@ col {
     border: 0;
     width: 100vw; } }
 
+.body-reviews {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/images/cinema2.webp); }
+
+.ficha1 dt {
+  display: inline-block; }
+
+.ficha1 dd {
+  display: inline-block; }
+
 html {
   overflow-x: hidden; }
 
