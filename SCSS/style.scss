@@ -4,7 +4,8 @@
 @import "./contacto";
 @import "./index";
 @import "./avances";
-@import "./_reviews.SCSS";
+@import "./_reviews";
+@import "./recomendadas";
 
 html{overflow-x: hidden;}
 
@@ -69,7 +70,7 @@ html{overflow-x: hidden;}
 
 }
 
-@media only screen and (max-width:574px) {
+    @media only screen and (max-width:574px) {
   
     #section_info_3 {
         font-family: $fontSausage;
@@ -92,6 +93,8 @@ html{overflow-x: hidden;}
         display: none;
     }
 }  
+
+    //  CHEQUEAR ESTO ''''''''
 
 #formulario_general {
     height: 90vh;
