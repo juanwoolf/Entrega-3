@@ -264,6 +264,13 @@ col {
   width: 100vw;
   height: 100vh;
   background-image: url(../assets/images/fondo-avances.webp); }
+  .body-recomendadas dt {
+    display: inline-block; }
+  .body-recomendadas dl {
+    display: inline-block; }
+
+.container-tabla h2 {
+  font-family: "shadow"; }
 
 .card {
   position: relative;
