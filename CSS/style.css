@@ -310,6 +310,11 @@ col {
 .card:hover .back {
   transform: perspective(500px) rotateY(360deg); }
 
+.footer-recomendadas li {
+  text-decoration: none; }
+  .footer-recomendadas li a {
+    text-decoration: none; }
+
 html {
   overflow-x: hidden; }
 
