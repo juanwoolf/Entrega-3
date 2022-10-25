@@ -268,6 +268,12 @@ col {
     display: inline-block; }
   .body-recomendadas dl {
     display: inline-block; }
+  .body-recomendadas #seccion_recomendadas p {
+    font-size: 1rem;
+    padding: 0, 10px; }
+  .body-recomendadas #seccion_recomendadas h5 {
+    font-size: 1,2rem;
+    text-align: center; }
 
 .container-tabla h2 {
   font-family: "shadow"; }
@@ -291,21 +297,18 @@ col {
     background-color: #e6ebe8;
     transform: perspective(500px) rotateY(180deg); }
     .card .back h5 {
-      text-align: center; }
+      text-align: center;
+      font-size: 1.2rem; }
     .card .back p {
       text-align: justify;
-      padding: 0,10px; }
+      padding: 0,10px;
+      font-size: 1rem; }
 
 .card:hover .front {
   transform: perspective(500px) rotateY(180deg); }
 
 .card:hover .back {
   transform: perspective(500px) rotateY(360deg); }
-
-#card2 {
-  position: relative;
-  width: 300px;
-  height: 400px; }
 
 html {
   overflow-x: hidden; }
@@ -342,7 +345,11 @@ html {
     height: 70vh; }
   #section_info_3 {
     font-family: "sausage";
-    font-size: 1em; } }
+    font-size: 1em; }
+  .card {
+    position: relative;
+    width: 300px;
+    height: 400px; } }
 
 @media only screen and (max-width: 574px) {
   #section_info_3 {
@@ -351,6 +358,14 @@ html {
   #footer_contacto {
     text-decoration: none,!important; }
   .carousel-indicators [data-bs-target] {
+    display: none; }
+  .body-recomendadas div.font {
+    padding-left: 25%; }
+  .body-recomendadas .card {
+    position: relative;
+    width: 200px;
+    height: 300px; }
+  .container-tabla {
     display: none; } }
 
 #formulario_general {

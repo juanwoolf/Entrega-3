@@ -65,6 +65,17 @@ html{overflow-x: hidden;}
         font-family: $fontSausage;
         font-size: 1em
     }
+
+    .card {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        
+
+}
+   
+
+   
    
 
 
@@ -92,6 +103,19 @@ html{overflow-x: hidden;}
     .carousel-indicators [data-bs-target]{
         display: none;
     }
+    .body-recomendadas{
+        div.font{padding-left: 25%;}
+        .card {position: relative;
+            width: 200px;
+            height: 300px;
+            
+        }
+               
+    
+    }
+    .container-tabla{
+        display: none;
+    }
 }  
 
     //  CHEQUEAR ESTO ''''''''
@@ -111,4 +135,5 @@ html{overflow-x: hidden;}
     width: 100vw;
     height: 150vh;
 }
+
 
