@@ -269,7 +269,8 @@ col {
 
 .ficha1 p {
   font-size: 1rem;
-  text-align: justify; }
+  text-align: justify;
+  font-family: "sausage"; }
 
 .container-review h2 {
   font-family: "shadow"; }
@@ -378,8 +379,11 @@ html {
     font-size: 1em; }
   #footer_contacto {
     text-decoration: none,!important; }
-  .carousel-indicators [data-bs-target] {
-    display: none; }
+  .body-index {
+    width: 100vw;
+    height: 150vh; }
+    .body-index .carousel-indicators [data-bs-target] {
+      display: none; }
   .body-recomendadas div.font {
     padding-left: 25%; }
   .body-recomendadas .card {
@@ -398,7 +402,3 @@ html {
   height: 10vh;
   position: absolute;
   width: 100vw; }
-
-.body-index {
-  width: 100vw;
-  height: 150vh; }

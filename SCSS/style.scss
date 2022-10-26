@@ -111,9 +111,15 @@ html{overflow-x: hidden;}
             }
         }
     }
-    .carousel-indicators [data-bs-target]{
+    .body-index{
+        width: 100vw;
+        height: 150vh;
+        .carousel-indicators [data-bs-target]{
         display: none;
+        }
     }
+    
+    
     .body-recomendadas{
         div.font{padding-left: 25%;}
         .card {position: relative;
@@ -149,10 +155,6 @@ html{overflow-x: hidden;}
     position: absolute;
     width: 100vw;
 
-}
-.body-index{
-    width: 100vw;
-    height: 150vh;
 }
 
 
