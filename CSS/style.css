@@ -393,7 +393,11 @@ html {
   .container-review col img {
     width: 50%; }
   .tabla-usuarios {
-    display: none; } }
+    display: none; }
+  #footer_recomendadas {
+    height: 15vh;
+    top: 0,  !important;
+    width: 100vw; } }
 
 #formulario_general {
   height: 90vh; }
