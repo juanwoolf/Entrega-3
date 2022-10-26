@@ -4,75 +4,72 @@
     height: 100vh,  !important;
     background-color:#dc3545;
     overflow-x: hidden;
-}
+    .animate__hinge {
+        animation-delay: 3s;
+        animation-fill-mode: both;
+    };
+    #formulario_general {
+        font-family:$fontSausage; font-size: 0.9rem;
+        background-color:$colorFormulario;
+        height: 90vh;
+        width: 100%;
+        #formulario_nombre {
+            border-radius: 30px solid black,  !important;
+            margin: 30px solid black;
+            #name{ placeholder{max-width: 90px}};
+            #no {display: block;text-align: center;
+            
+            }   
+        };
+        #via{width: fit-content;};
+        #formulario_comentario{ div{
+            label{
+                textarea{
+                    max-width: 20vw;
+                    ;
+                   
+                    }
+                 }
+             }
+        };
+        
+        #botones_reseteo{
+        button{@include estilo-boton; height: 10vh;} 
+        bottom: 1;
+        }
 
-
-
-#footer_contacto { 
-    height: auto;
-    text-align: center;
-    background-color:#dc3545;
-    text-decoration: none,!important;
-        div{text-decoration: none;
-            ul{text-decoration: none;
-                li{text-decoration: none;
-                    a{text-decoration-color: none; text-decoration: none;
-
+    }
+    #footer_contacto { 
+        height: auto;
+        text-align: center;
+        background-color:#dc3545;
+        text-decoration: none,!important;
+            div{text-decoration: none;
+                ul{text-decoration: none;
+                    li{text-decoration: none;
+                        a{text-decoration-color: none; text-decoration: none;
+    
+                        }
                     }
                 }
             }
         }
-    }
-   
-
-
-
-
-.animate__hinge {
-    animation-delay: 3s;
-    animation-fill-mode: both;
 }
 
 
-#formulario_general {
-    font-family:$fontSausage; font-size: 0.9rem
-    ;
-    background-color:$colorFormulario;
-    height: 90vh;
-    width: 100%;
 
-}
 
-#formulario_nombre {
-    border-radius: 30px solid black,  !important;
-    margin: 30px solid black;
 
-}
-#no {
-    display: block;
-    text-align: center;
 
-}
 
-#name{ placeholder{max-width: 90px}}
 
-#botones_reseteo{
-    button{@include estilo-boton; height: 10vh;
-    } 
-    bottom: 1;
-   
-}
 
-#via{width: fit-content;}
 
-#formulario_comentario{ div{
-                            label{
-                                textarea{
-                                    max-width: 20vw;
-                                    ;
-                                   
-                                }
-                            }
-}
 
-}
+
+
+
+
+
+
+
