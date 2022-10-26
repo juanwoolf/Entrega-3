@@ -50,6 +50,9 @@
 .link-reviews {
   background-color: green; }
 
+.navbar ul li a {
+  font-family: "sausage"; }
+
 .body-contacto {
   width: 100vw;
   height: 150vh,  !important;
@@ -255,10 +258,21 @@ col {
   background-image: url(../assets/images/cinema2.webp); }
 
 .ficha1 dt {
-  display: inline-block; }
+  display: inline-block;
+  text-align: justify;
+  padding-left: 1rem; }
 
 .ficha1 dd {
-  display: inline-block; }
+  display: inline-block;
+  text-align: justify;
+  padding-left: 1rem; }
+
+.ficha1 p {
+  font-size: 1rem;
+  text-align: justify; }
+
+.container-review h2 {
+  font-family: "shadow"; }
 
 .body-recomendadas {
   width: 100vw;
@@ -331,6 +345,8 @@ html {
     height: 180vh; } }
 
 @media only screen and (min-width: 574px) and (max-width: 768px) {
+  .container-review col img {
+    width: 50%; }
   #footer_index {
     height: auto;
     position: absolute;
@@ -370,6 +386,8 @@ html {
     position: relative;
     width: 200px;
     height: 300px; }
+  .container-review col img {
+    width: 50%; }
   .tabla-usuarios {
     display: none; } }
 

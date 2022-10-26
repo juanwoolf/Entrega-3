@@ -4,6 +4,14 @@
 }
 
 .ficha1{
-    dt{display: inline-block;}
-    dd{display: inline-block;}
+    dt{display: inline-block; text-align: justify; padding-left: 1rem;}
+    dd{display: inline-block; text-align: justify;padding-left: 1rem}
+    p{font-size: 1rem; text-align: justify;}
+}
+
+.container-review{
+    h2{ font-family:"shadow";
+
+    }
+
 }
