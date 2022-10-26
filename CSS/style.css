@@ -334,10 +334,12 @@ col {
 .card:hover .back {
   transform: perspective(500px) rotateY(360deg); }
 
-.footer-recomendadas li {
-  text-decoration: none; }
-  .footer-recomendadas li a {
+#footer_recomendadas {
+  width: 100vw; }
+  #footer_recomendadas li {
     text-decoration: none; }
+    #footer_recomendadas li a {
+      text-decoration: none; }
 
 html {
   overflow-x: hidden; }
