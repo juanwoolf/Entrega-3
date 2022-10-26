@@ -10,7 +10,7 @@
 html{overflow-x: hidden;}
 
 
-// *    -------MEDIA QUERIES-- */
+// * -------MEDIA QUERIES-- */
 
 @media only screen and (min-width: 992px) and (max-width:1200px) {
     #container_avances{ justify-content: center;
@@ -27,9 +27,10 @@ html{overflow-x: hidden;}
         .texto-video {
             h2{ u{text-align: start;color:rgb(63, 39, 35)};font-family:$fontShadow; font-size: 20px;}
             p{ text-align: start; color: rgb(245, 94, 12); }; font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 10px ;}
-   }       
-}
+            font-size: 10px ;}
+             }       
+
+ }
 
 
 
@@ -50,7 +51,7 @@ font-size: 10px ;}
                  margin-bottom: 0;
         
              }
-     };
+     }
      .body-avances{
         background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
         background-repeat: round;
@@ -152,7 +153,7 @@ font-size: 10px ;}
             
        
         }
-    };
+    }
     
     
     .body-recomendadas{
@@ -166,7 +167,7 @@ font-size: 10px ;}
         }
                
     
-    };
+    }
     .container-review{
         col{
         img
