@@ -1,3 +1,10 @@
+.body-avances{
+    background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
+    background-repeat: round;
+    ;
+    padding: 0; margin: 0;border: 0;
+    width: 100%;
+}
  #video_loop{width: 100vw;height:auto; margin: 0;padding-left: 5%; padding-right: 3.5%;
 
  }
@@ -20,13 +27,6 @@
 
 
  
-.body-avances{
-    background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
-    background-repeat: round;
-    ;
-    padding: 0; margin: 0;border: 0;
-    width: 100%;
-}
 
 
 
@@ -47,50 +47,14 @@
                     p{font-family: $fontShadow,font-size 1.5rem;color: wheat;text-align: justify;}
 }                   col{flex-shrink: 1;}
 
-.texto-video {h2{ u{text-align: center;color:rgb(63, 39, 35)}}
-            p{ text-align: center; color: rgb(44, 165, 42); }}
+.texto-video {h2{ u{text-align: start;color:rgb(63, 39, 35)};font-family:$fontShadow; font-size: 100px;}
+            p{ text-align: center; color: rgb(44, 165, 42); }; font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px ;}
 
 
-//    --media queries--
-
- @media only screen and (min-width: 992px) and (max-width:1200px) {
-     #container_avances{ justify-content: center;
-        div{ display: block;
-            col{ display: inline-block;
-            iframe{width: 100%; padding-left: 30%;}}
-                 article{
-                     p{ padding: 0 20px;}
-                }
-
-         
-    }
-         
- }
-    
- }
 
 
- @media only screen and (min-width: 768px) and (max-width:992px) {
-//     #container_avances{ display:flex; align-items: center;
-//          div{ display: block;padding-left: 20%;
-//               col{ 
-//               iframe{width: 100%; padding-left: 10%;}}
-//                   article{ padding-left: 40%; width: auto;
-//                       p{ padding: 0 20px;}
-//                   }
  
-          
-//       }
-          
-//   }
-         
-.body-avances{
-    background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
-    background-repeat: round;
-    ;
-    padding: 0; margin: 0;border: 0;
-    width: 100vw;
-}
-         
- }
-    
+
+
+

@@ -173,6 +173,16 @@
 #nav {
   height: 10vh; }
 
+.body-avances {
+  background-image: url(../assets/images/fondo-avances.webp);
+  border: 0;
+  margin: 0;
+  background-repeat: round;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 100%; }
+
 #video_loop {
   width: 100vw;
   height: auto;
@@ -196,16 +206,6 @@
   width: 100%;
   height: auto;
   padding: 0; }
-
-.body-avances {
-  background-image: url(../assets/images/fondo-avances.webp);
-  border: 0;
-  margin: 0;
-  background-repeat: round;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  width: 100%; }
 
 .resena-avance1 {
   background-image: url(../assets/images/cine-proyector.webp);
@@ -240,37 +240,18 @@
 col {
   flex-shrink: 1; }
 
-.texto-video h2 u {
-  text-align: center;
-  color: #3f2723; }
-
-.texto-video p {
-  text-align: center;
-  color: #2ca52a; }
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  #container_avances {
-    justify-content: center; }
-    #container_avances div {
-      display: block; }
-      #container_avances div col {
-        display: inline-block; }
-        #container_avances div col iframe {
-          width: 100%;
-          padding-left: 30%; }
-      #container_avances div article p {
-        padding: 0 20px; } }
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  .body-avances {
-    background-image: url(../assets/images/fondo-avances.webp);
-    border: 0;
-    margin: 0;
-    background-repeat: round;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    width: 100vw; } }
+.texto-video {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px; }
+  .texto-video h2 {
+    font-family: "shadow";
+    font-size: 100px; }
+    .texto-video h2 u {
+      text-align: start;
+      color: #3f2723; }
+  .texto-video p {
+    text-align: center;
+    color: #2ca52a; }
 
 .body-reviews {
   width: 100vw;
@@ -390,7 +371,19 @@ html {
     padding: 0;
     margin: 0;
     border: 0;
-    width: 100vw; } }
+    width: 100vw; }
+  .texto-video {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; }
+    .texto-video h2 {
+      font-family: "shadow";
+      font-size: 80px; }
+      .texto-video h2 u {
+        text-align: start;
+        color: #3f2723; }
+    .texto-video p {
+      text-align: center;
+      color: #2ca52a; } }
 
 @media only screen and (min-width: 574px) and (max-width: 768px) {
   .container-review col img {
@@ -444,6 +437,18 @@ html {
     height: fit-content; }
   .container-review col img {
     width: 50%; }
+  .texto-video {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; }
+    .texto-video h2 {
+      font-family: "shadow";
+      font-size: 80px; }
+      .texto-video h2 u {
+        text-align: start;
+        color: #3f2723; }
+    .texto-video p {
+      text-align: center;
+      color: #2ca52a; }
   .tabla-usuarios {
     display: none; }
   #footer_recomendadas {
