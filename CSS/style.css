@@ -58,7 +58,7 @@
 
 .body-contacto {
   width: 100vw;
-  height: 150vh,  !important;
+  height: 100vh,  !important;
   background-color: #dc3545;
   overflow-x: hidden; }
 
@@ -100,8 +100,7 @@
   max-width: 90px; }
 
 #botones_reseteo {
-  bottom: 1;
-  position: absolute; }
+  bottom: 1; }
   #botones_reseteo button {
     padding: 6px 12px;
     border: 3px solid black;
@@ -190,7 +189,7 @@
   padding-left: 5%;
   padding-right: 3.5%; }
 
-.columna-video {
+#columna_video {
   width: 100%;
   height: auto;
   padding: 0; }
@@ -233,7 +232,7 @@ col {
   font-size: 30px; }
   .texto-video h2 {
     font-family: "shadow";
-    font-size: 100px; }
+    font-size: 5rem; }
     .texto-video h2 u {
       text-align: start;
       color: #3f2723; }

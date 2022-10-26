@@ -1,7 +1,7 @@
 .body-contacto {
     width: 100vw;
 
-    height: 150vh,  !important;
+    height: 100vh,  !important;
     background-color:#dc3545;
     overflow-x: hidden;
 }
@@ -59,7 +59,7 @@
 #botones_reseteo{
     button{@include estilo-boton; height: 10vh;
     } 
-    bottom: 1; position: absolute;
+    bottom: 1;
    
 }
 

@@ -9,18 +9,8 @@
 
  }
 
-// #container_video{width: 100%; border: 0; padding: 0;;
-//                 h2{ font-family: $fontSausage, font-size 1.5vw; color: white
 
-//                 };
-//                 p{font-family: $fontSausage,font-size 3vw;color: rgb(218, 99, 20);text-align:start
-
-//                 }
-
-
-// }
-
-.columna-video{width: 100%; height: auto; padding: 0;
+#columna_video{width: 100%; height: auto; padding: 0;
 
 }
 
@@ -47,7 +37,7 @@
                     p{font-family: $fontShadow,font-size 1.5rem;color: wheat;text-align: justify;}
 }                   col{flex-shrink: 1;}
 
-.texto-video {h2{ u{text-align: start;color:rgb(63, 39, 35)};font-family:$fontShadow; font-size: 100px;}
+.texto-video {h2{ u{text-align: start;color:rgb(63, 39, 35)};font-family:$fontShadow; font-size: 5rem;}
             p{ text-align: start; color:rgb(247, 153, 21); }; font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 30px ;}
 
