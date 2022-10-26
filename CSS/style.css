@@ -452,6 +452,6 @@ html {
   .tabla-usuarios {
     display: none; }
   #footer_recomendadas {
-    height: 15vh;
+    height: 25vh;
     top: 0,  !important;
     width: 100vw; } }
