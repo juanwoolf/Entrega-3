@@ -16,15 +16,7 @@
 // }}
    
 
-#main_index{ height: 80vh;
-    width: 100vw;
-    overflow-y: auto;
-}
 
-#nav {
-    height: 10vh;
-    
-}
 
 #section_info{background-color: map-get($estilo-nav, recomendadas);align-items: stretch;
     h2{font-family: $fontSausage; 
@@ -37,7 +29,7 @@
 }
 
 #section_info1{ 
-    h2{font-family:$fontSausage; font-size: 1.2rem}
+    h2{font-family:$fontSausage; font-size: 1.3rem}
     p{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1rem;
         text-align: justify;}
     
