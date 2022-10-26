@@ -190,18 +190,6 @@
   padding-left: 5%;
   padding-right: 3.5%; }
 
-#container_video {
-  width: 100%;
-  border: 0;
-  padding: 0; }
-  #container_video h2 {
-    font-family: "sausage", font-size 1.5vw;
-    color: white; }
-  #container_video p {
-    font-family: "sausage", font-size 3vw;
-    color: #da6314;
-    text-align: start; }
-
 .columna-video {
   width: 100%;
   height: auto;
@@ -441,8 +429,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px; }
     .texto-video h2 {
-      font-family: "shadow";
-      font-size: 80px; }
+      font-family: "shadow"; }
       .texto-video h2 u {
         text-align: start;
         color: #3f2723; }
