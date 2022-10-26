@@ -79,6 +79,7 @@
 
 #formulario_general {
   font-family: "sausage";
+  font-size: 1rem;
   background-color: #198754;
   height: 90vh;
   width: 100%; }
@@ -91,31 +92,37 @@
   display: block;
   text-align: center; }
 
-#botones_reseteo bottom {
-  padding: 6px 12px;
-  border: 3px solid transparent;
-  display: inline-block;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  color: yellow, !important;
-  background-color: rgba(255, 215, 196, 0.562); }
+#name placeholder {
+  max-width: 90px; }
+
+#botones_reseteo {
+  bottom: 1;
+  position: absolute; }
+  #botones_reseteo button {
+    padding: 6px 12px;
+    border: 3px solid transparent;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: yellow, !important;
+    background-color: rgba(255, 215, 196, 0.562);
+    height: 10vh; }
 
 #via {
-  width: 100%; }
+  width: fit-content; }
 
 #formulario_comentario div label textarea {
-  max-width: 20vw;
-  max-height: 30%; }
+  max-width: 20vw; }
 
 .body-index {
   width: 100vw;
@@ -398,9 +405,6 @@ html {
     height: 15vh;
     top: 0,  !important;
     width: 100vw; } }
-
-#formulario_general {
-  height: 90vh; }
 
 #footer_index {
   height: 10vh;

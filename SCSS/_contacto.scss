@@ -34,7 +34,7 @@
 
 
 #formulario_general {
-    font-family:$fontSausage;
+    font-family:$fontSausage; font-size: 1rem
     ;
     background-color:$colorFormulario;
     height: 90vh;
@@ -53,21 +53,22 @@
 
 }
 
-
+#name{ placeholder{max-width: 90px}}
 
 #botones_reseteo{
-    bottom{@include estilo-boton;
+    button{@include estilo-boton; height: 10vh;
     } 
+    bottom: 1; position: absolute;
    
 }
 
-#via{width: 100%;}
+#via{width: fit-content;}
 
 #formulario_comentario{ div{
                             label{
                                 textarea{
                                     max-width: 20vw;
-                                    max-height: 30%;
+                                    ;
                                    
                                 }
                             }

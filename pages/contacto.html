@@ -53,41 +53,42 @@
 
   <main class="container-fluid m-0 border-0  p-0">
     <div class="row p-0 m-0 text-center d-flex flex-column border-0">
-      <div class="col bg-success text-center border-0 m-0 p-0 d-block">
-        <img src="../assets/images/estampillasMonstruos.webp" alt="monsters" class="d-block w-100 rounded mx-auto">
+      <div class="col-12 bg-success border-0 m-0 p-0 d-block">
+        <img src="../assets/images/estampillasMonstruos.webp" alt="monsters" class="d-block w-75 rounded mx-auto">
       </div>
       
       <div class="col bg-success border-2 d-block">
-        <section id="section_info_3" class="text-center text-justify">
+        <section id="section_info_3" class="text-center">
           <h4 class="animate_animated animate__hinge text-center"><u>Tu opinión nos importa</u></h4>
-          <p>Nos fascina saber quién nos lee, sus opiniones, recomendaciones o cualquier comentario que contribuya a la
-          página.<p>
-          <br>
-          <p class="text-justify">Por favor, escribinos.</p>
-
-
-      </section>
-    </div>
+          <p style="text-align:justify">Nos fascina saber quién nos lee, sus opiniones, recomendaciones o cualquier comentario que contribuya a la
+          página. Por favor, escribinos.</p>
+         
+          
+        </section>
+      </div>
     </div>
   </main>
   <div class="container-fluid p-0">
-    <form class="border border-dark p-2 d-flex justify-content-between align-items-center flex-column" id="formulario_general">
+    <form class="border border-dark p-2" id="formulario_general">
 
-      <div class="row py-4 d-block-flex justify-content-center" id="formulario_nombre">
-        <div class="col">
-          <h4>Consultas/Comentarios?</h4>
-          <div class="col col-xl-auto">
+      <div class="row flex-column flex-md-row" id="formulario_nombre">
+        <div class="col-6">
+          <div>
+            <h6>¿Consultas/Comentarios?</h6>
+          </div>
+          
+          <div>
             <label for="nameImput" class="form-label">Name</label>
             <input type="text" id="name" class="w-75" placeholder="Ingrese su nombre" required>
           </div>
-          <div class="col col-xl-auto">
+          <div>
             <label for="emailImput" class="form-label">Email</label>
             <input type="email" id="email" class="w-75" placeholder="Ingrese su email" required>
           </div>
         </div>
-        <div class="col" id="formulario_newsletter">
-          <h5>¿Desea recibir nuestro newsletter?</h5>
-          <div class="col-sm-12">
+        <div class="col-6 px" id="formulario_newsletter">
+          <h6>¿Desea recibir nuestro newsletter?</h6>
+          <div>
             <div class="pt-1 align-self-start">
               <input class="form-check-input" type="radio" name="gridRadios" id="si" value="si" checked>
               <label class="form-check-label" for="gridRadios1"> Si</label>
@@ -101,26 +102,28 @@
           </div>
         </div>
       </div>
-      <div class="row d-flex align-items-center">
+      <br>
+      <div class="row flex-column flex-md-row g-4">
           <div class="col-6">
-            <h5 class="py-0 text-wrap">Cuentenos cómo conocio el sitio</h5>
+            <h6 class=" text-wrap">Cuentenos cómo conocio el sitio</h6>
             <label for="modo">Gracias</label>
             <select name="A traves de" id="via">
-              <option value="amigue"> a un amigo/a</option>
+              <option value="amigo"> a un amigo/a</option>
               <option value="intenet">a Google u otro buscador</option>
               <option value="otro"> Otro</option>
               </select>
           </div>
-          <div class="col-6 py-1 d-inline" id="formulario_comentario">
-            <h5 class="text-start text-wrap">Escriba su comentario</h5>
+          <div class="col-auto" id="formulario_comentario">
+            <h6 class="text-start m-0">Escriba su comentario</h6>
             <div>
               <label for="consulta" class="form-label overflow-hidden">
-                <textarea class="form-control position-absolute" rows="3"></textarea></label>
-              </div>
+              <textarea class="form-control position-absolute" style="max-height: 100px" rows="3"></textarea></label>
+            </div>
           </div>
       </div>
-      <div class="row align-self-center h-auto">
-        <div class="col-12 pb-3" id="botones_reseteo">
+      <br>
+      <div class="row flex-column flex-md-row g-4 d-block">
+        <div class="col-11 m-4" id="botones_reseteo">
           <button type="submit" input id="enviar">Enviar</button>
           <button type="reset" input id="reset">Limpiar</button>
           
