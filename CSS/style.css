@@ -230,7 +230,7 @@ col {
 
 .texto-video {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px; }
+  font-size: 30px; }
   .texto-video h2 {
     font-family: "shadow";
     font-size: 100px; }
@@ -238,8 +238,8 @@ col {
       text-align: start;
       color: #3f2723; }
   .texto-video p {
-    text-align: center;
-    color: #2ca52a; }
+    text-align: start;
+    color: #f79915; }
 
 .body-reviews {
   width: 100vw;
@@ -338,7 +338,19 @@ html {
           width: 100%;
           padding-left: 30%; }
       #container_avances div article p {
-        padding: 0 20px; } }
+        padding: 0 20px; }
+    #container_avances .texto-video {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px; }
+      #container_avances .texto-video h2 {
+        font-family: "shadow";
+        font-size: 20px; }
+        #container_avances .texto-video h2 u {
+          text-align: start;
+          color: #3f2723; }
+      #container_avances .texto-video p {
+        text-align: start;
+        color: #f55e0c; } }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   #footer_contacto {
@@ -370,8 +382,8 @@ html {
         text-align: start;
         color: #3f2723; }
     .texto-video p {
-      text-align: center;
-      color: #2ca52a; } }
+      text-align: start;
+      color: #f55e0c; } }
 
 @media only screen and (min-width: 574px) and (max-width: 768px) {
   .container-review col img {
@@ -399,7 +411,19 @@ html {
   .card {
     position: relative;
     width: 300px;
-    height: 400px; } }
+    height: 400px; }
+  .texto-video {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; }
+    .texto-video h2 {
+      font-family: "shadow";
+      font-size: 40px; }
+      .texto-video h2 u {
+        text-align: start;
+        color: #3f2723; }
+    .texto-video p {
+      text-align: start;
+      color: #f55e0c; } }
 
 @media only screen and (max-width: 574px) {
   #footer_contacto {
@@ -427,15 +451,16 @@ html {
     width: 50%; }
   .texto-video {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px; }
+    font-size: 1rem; }
     .texto-video h2 {
-      font-family: "shadow"; }
+      font-family: "shadow";
+      font-size: 1.5rem; }
       .texto-video h2 u {
         text-align: start;
         color: #3f2723; }
     .texto-video p {
-      text-align: center;
-      color: #2ca52a; }
+      text-align: start;
+      color: #f79915; }
   .tabla-usuarios {
     display: none; }
   #footer_recomendadas {
