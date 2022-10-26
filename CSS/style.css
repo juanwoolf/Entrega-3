@@ -56,7 +56,8 @@
 .body-contacto {
   width: 100vw;
   height: 150vh,  !important;
-  background-color: #dc3545; }
+  background-color: #dc3545;
+  overflow-x: hidden; }
 
 #footer_contacto {
   height: auto;
@@ -112,8 +113,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding: 0, 0.75rem;
     font-size: 1rem;
     border-radius: 1rem;
     color: yellow, !important;
