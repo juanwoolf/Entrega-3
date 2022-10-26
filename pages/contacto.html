@@ -71,8 +71,8 @@
   <div class="container-fluid p-0">
     <form class="border border-dark p-2" id="formulario_general">
 
-      <div class="row flex-column flex-md-row" id="formulario_nombre">
-        <div class="col-6">
+      <div class="row flex-row" id="formulario_nombre">
+        <div class="col-6 mt-4">
           <div>
             <h6>¿Consultas/Comentarios?</h6>
           </div>
@@ -86,7 +86,7 @@
             <input type="email" id="email" class="w-75" placeholder="Ingrese su email" required>
           </div>
         </div>
-        <div class="col-6 px" id="formulario_newsletter">
+        <div class="col-6 mt-4" id="formulario_newsletter">
           <h6>¿Desea recibir nuestro newsletter?</h6>
           <div>
             <div class="pt-1 align-self-start">
@@ -103,7 +103,7 @@
         </div>
       </div>
       <br>
-      <div class="row flex-column flex-md-row g-4">
+      <div class="row  flex-row g-4 h-50 w-auto">
           <div class="col-6">
             <h6 class=" text-wrap">Cuentenos cómo conocio el sitio</h6>
             <label for="modo">Gracias</label>
@@ -113,7 +113,7 @@
               <option value="otro"> Otro</option>
               </select>
           </div>
-          <div class="col-auto" id="formulario_comentario">
+          <div class="col-6" id="formulario_comentario">
             <h6 class="text-start m-0">Escriba su comentario</h6>
             <div>
               <label for="consulta" class="form-label overflow-hidden">
@@ -122,7 +122,7 @@
           </div>
       </div>
       <br>
-      <div class="row flex-column flex-md-row g-4 d-block">
+      <div class="row flex-column flex-sm-row g-4 d-block">
         <div class="col-11 m-4" id="botones_reseteo">
           <button type="submit" input id="enviar">Enviar</button>
           <button type="reset" input id="reset">Limpiar</button>
