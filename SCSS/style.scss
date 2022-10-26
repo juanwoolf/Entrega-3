@@ -11,25 +11,54 @@ html{overflow-x: hidden;}
 
 
 // *    -------MEDIA QUERIES-- */
-@media only screen and (min-width: 768px) and (max-width:992px) {
-    #footer_index {
-        height: 40vh;
-        width: 100vw;
-        margin-bottom: 0;
 
-    }
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    #container_avances{ justify-content: center;
+       div{ display: block;
+           col{ display: inline-block;
+           iframe{width: 100%; padding-left: 30%;}}
+                article{
+                    p{ padding: 0 20px;}
+               }
 
-    #footer_contacto {
-        height: auto;
-        text-decoration: none,!important;
         
-    }
-    .body-index{
-        width: 100vw;
-        height: 180vh;
-    }
+   }
+
+}
    
 }
+
+
+
+// @media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+
+//     #footer_contacto {
+//         height: auto;
+//         text-decoration: none,!important;
+        
+//     }
+//     .body-index{
+//         width: 100vw;
+//         height: 100vh;
+//         .body-avances{
+//             background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
+//             background-repeat: round;
+//             padding: 0; margin: 0;border: 0;
+//             width: 100vw;}
+//         #footer_index {
+//                 height: 20vh;
+//                 width: 100vw;
+//                 margin-bottom: 0;
+        
+//             }
+//     }
+
+    
+        
+//     }
+   
+
 
 
 
@@ -53,18 +82,17 @@ html{overflow-x: hidden;}
     }
 
 
-    #footer_contacto { @include reset;
-        height: 15vh;
-        text-align: center;
-        text-decoration: none,!important;
-       
-
-    }
-
-    .body-contacto {
+   .body-contacto {
         width: 100vw;
         height: 100vh,  !important;
         background-color:#dc3545;
+        #footer_contacto { @include reset;
+            height: 15vh;
+            text-align: center;
+            text-decoration: none,!important;
+           
+    
+        }
     }
 
     #formulario_general {
@@ -92,32 +120,30 @@ html{overflow-x: hidden;}
 
 }
 
-    @media only screen and (max-width:574px) {
+@media only screen and (max-width:574px) {
   
-    #section_info_3 {
-        font-family: $fontSausage;
-        font-size: 1em
+    // #section_info_3 {
+    //     font-family: $fontSausage;
+    //     font-size: 1em
         
-    }
+    // }
     #footer_contacto{
         text-decoration: none,!important;
-        div{
-            ul{
-                li{
-                    a{
-                        
-                    }
-                }
-            }
-        }
+        
     }
     .body-index{
         width: 100vw;
         height: 150vh;
-        .carousel-indicators [data-bs-target]{
+        #carousel_index {
         display: none;
+        };
+        #footer_index {
+            height: 10vh;
+            position: absolute;
+            width: 100vw;
+       
         }
-    }
+    };
     
     
     .body-recomendadas{
@@ -126,10 +152,12 @@ html{overflow-x: hidden;}
             width: 200px;
             height: 300px;
             
+        } .back{ height: fit-content;
+
         }
                
     
-    }
+    };
     .container-review{
         col{
         img
@@ -149,15 +177,4 @@ html{overflow-x: hidden;}
     }
     
 }  
-
-    //  CHEQUEAR ESTO ''''''''
-
-
-#footer_index {
-    height: 10vh;
-    position: absolute;
-    width: 100vw;
-
-}
-
 

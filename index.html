@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -58,11 +59,11 @@
 
   <main>
     <div class="container-fluid animate__animated animate__slideInLeft" id="container_encabezados">
-      <div class="row border-bottom" id="main">
-        <section class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center bg-body" id="section_info">
+      <div class="row d-flex flex-column flex-sm-row border-bottom" id="main_index">
+        <div class="col-12 col-md-4 text-center bg-body" id="section_info">
           <h2 class="pt-2 pb-2"><u>¿Qué es el cine de terror?</u></h2>
           <div class="d-flex justify-content-start align-items-stretch">
-            <p class="text-sm-start  text-md-start text-lg-start text-xl-start px-2">El cine de terror es un género
+            <p class="px-2">El cine de terror es un género
               cinematográfico que se caracteriza por su voluntad de provocar
               en el espectador
               sensaciones de pavor,
@@ -74,25 +75,17 @@
               un determinado personaje o actor no profesional.</p>
           </div>
 
-        </section>
+        </div>
 
-        <section class="col-sm-12 col-md-12 col-lg-8 col-xl-8  bg-warning " id="section_info1">
+        <div class="col-12 col-md-8 bg-warning " id="section_info1">
           <h2 class="pt-2 pb-2 text-center"><u>¿Dónde nació?</u></h2>
-          <P class="text-sm-start px-4 text-center">El cine de horror nació
-            junto con el
-            mismo cine. Los hermanos Lumière rodaron en 1896 la cinta L'arrivée
-            d'un
-            train à La Ciotat (La llegada del tren). En esta película, como su nombre indica, únicamente se mostraba
-            la
-            llegada de un tren; sólo que,
-            dado que el cine era un invento desconocido para la mayoría de los espectadores, estos creían que el
-            tren se
-            iba
-            a salir literalmente de la pantalla para arrollarlos; los primeros espectadores de la cinta gritaban y
-            escapaban
-            de la sala aterrorizados.</p>
+          <P class="px-4">El cine de horror nació junto con el mismo cine. Los hermanos Lumière rodaron en 1896 la cinta
+            L'arrivée d'un train à La Ciotat (La llegada del tren). En esta película, como su nombre indica, únicamente se mostraba
+            la llegada de un tren; sólo que, dado que el cine era un invento desconocido para la mayoría de los espectadores, estos creían que el
+            tren se iba a salir literalmente de la pantalla para arrollarlos; los primeros espectadores de la cinta gritaban y
+            escapaban de la sala aterrorizados.</p>
 
-          <p class="text-sm-start px-4">La primera cinta
+          <p class="px-4">La primera cinta
             considerada de terror fue La mansión del diablo, dirigida e ideada por Georges Méliès,
             se estrenó el 24 de diciembre de 1896, en París. Esto dio paso a todo el cine de terror. Durante esta era
             del cine primitivo, Francia se posicionó como la gran realizadora de antecedentes de este género. Louis
@@ -106,7 +99,7 @@
             más
             que se realizaron en Francia.</p>
           <br>
-        </section>
+        </div>
       </div>
     </div>
   </main>
@@ -175,8 +168,12 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+  </script>
 
   <footer class="navbar navbar-expand-lg navbar-light bg-danger m-0 p-0 position-absolute" id="footer_index">
     <div class="container-fluid">

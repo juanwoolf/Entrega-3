@@ -1,6 +1,6 @@
 .body-index{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
 }
 
 #carousel_index{
@@ -39,4 +39,14 @@
     top: 0,  !important;
     width: 100vw;
 
+}
+
+#main_index{ height: 80vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+#nav {
+    height: 10vh;
+    
 }

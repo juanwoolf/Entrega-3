@@ -16,7 +16,7 @@
 // }}
    
 
-#main{ height: 80vh;
+#main_index{ height: 80vh;
     width: 100vw;
     overflow-y: auto;
 }
@@ -26,11 +26,21 @@
     
 }
 
-#section_info{
-    font-family: $fontSausage; font-size: 1.3em; background-color: map-get($estilo-nav, contacto);
+#section_info{background-color: map-get($estilo-nav, recomendadas);align-items: stretch;
+    h2{font-family: $fontSausage; 
+    font-size: 1.3rem; 
+    
+
+}   p{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1rem;
+     text-align: justify;}
+    
 }
 
-#section_info1{font-family:$fontSausage; font-size: 1.2rem;
+#section_info1{ 
+    h2{font-family:$fontSausage; font-size: 1.2rem}
+    p{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1rem;
+        text-align: justify;}
+    
 
 }
 

@@ -5,9 +5,9 @@
     
     dt{display: inline-block;}
     dl{display: inline-block;}
-    #seccion_recomendadas{ 
+    #seccion_recomendadas{
         p{
-        font-size: 1rem; padding: 0, 10px;
+        font-size: 1rem; padding: 0, 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
         h5{font-size: 1,2rem; text-align: center;}
 
@@ -43,8 +43,9 @@
     }
     .back{background-color: rgb(230, 235, 232); 
         transform: perspective(500px) rotateY(180deg);
-        h5{text-align: center; font-size: 1.2rem;}
-        p{text-align: justify; padding: 0,10px; font-size: 1rem;}
+        h5{text-align: center; font-size: 1.2rem; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        p{text-align: justify; padding: 0,10px; font-size: 1rem; font-family:Verdana, Geneva, Tahoma, sans-serif}
+
 
     }
 }       
