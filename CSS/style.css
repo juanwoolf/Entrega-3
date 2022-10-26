@@ -131,46 +131,40 @@
 .body-index {
   width: 100vw;
   height: 100vh; }
-
-#carousel_index {
-  height: auto;
-  background-image: url(../assets/images/bgr-terror.jpg);
-  background-repeat: round; }
-  #carousel_index .fa-arrow-right {
-    color: orange; }
-  #carousel_index .fa-arrow-left {
-    color: orange; }
-  #carousel_index .carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: orange;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
-    border-radius: 100%; }
-
-#footer_index {
-  height: 10vh;
-  top: 0,  !important;
-  width: 100vw; }
-
-#main_index {
-  height: 60vh;
-  width: 100vw;
-  overflow-y: auto; }
-
-#nav {
-  height: 10vh; }
+  .body-index #main_index {
+    height: 60vh;
+    width: 100vw;
+    overflow-y: auto; }
+  .body-index #carousel_index {
+    height: auto;
+    background-image: url(../assets/images/bgr-terror.jpg);
+    background-repeat: round; }
+    .body-index #carousel_index .fa-arrow-right {
+      color: orange; }
+    .body-index #carousel_index .fa-arrow-left {
+      color: orange; }
+    .body-index #carousel_index .carousel-indicators [data-bs-target] {
+      box-sizing: content-box;
+      flex: 0 1 auto;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      margin-right: 3px;
+      margin-left: 3px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: orange;
+      background-clip: padding-box;
+      border: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      opacity: .5;
+      transition: opacity .6s ease;
+      border-radius: 100%; }
+  .body-index #footer_index {
+    height: 10vh;
+    top: 0,  !important;
+    width: 100vw; }
 
 .body-avances {
   background-image: url(../assets/images/fondo-avances.webp);
@@ -181,6 +175,9 @@
   margin: 0;
   border: 0;
   width: 100%; }
+
+col {
+  flex-shrink: 1; }
 
 #video_loop {
   width: 100vw;
@@ -223,9 +220,6 @@
     font-family: "shadow", font-size 1.5rem;
     color: wheat;
     text-align: justify; }
-
-col {
-  flex-shrink: 1; }
 
 .texto-video {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

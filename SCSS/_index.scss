@@ -1,53 +1,59 @@
-.body-index{
+.body-index {
     width: 100vw;
     height: 100vh;
-}
 
-#carousel_index{
-    height: auto;
-    background-image: url(../assets/images/bgr-terror.jpg);
-    background-repeat: round;
-    .fa-arrow-right{color: orange;
+    #main_index {
+        height: 60vh;
+        width: 100vw;
+        overflow-y: auto;
 
     }
-    .fa-arrow-left{color: orange;
-
+    #carousel_index {
+        height: auto;
+        background-image: url(../assets/images/bgr-terror.jpg);
+        background-repeat: round;
+    
+        .fa-arrow-right {
+            color: orange;
+    
+        }
+    
+        .fa-arrow-left {
+            color: orange;
+    
+        }
+    
+        .carousel-indicators [data-bs-target] {
+            box-sizing: content-box;
+            flex: 0 1 auto;
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            margin-right: 3px;
+            margin-left: 3px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: orange;
+            background-clip: padding-box;
+            border: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            opacity: .5;
+            transition: opacity .6s ease;
+            border-radius: 100%;
+        }
+    
     }
-    .carousel-indicators [data-bs-target] {
-        box-sizing: content-box;
-        flex: 0 1 auto;
-        width: 20px;
-        height: 20px;
-        padding: 0;
-        margin-right: 3px;
-        margin-left: 3px;
-        text-indent: -999px;
-        cursor: pointer;
-        background-color:orange;
-        background-clip: padding-box;
-        border: 0;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        opacity: .5;
-        transition: opacity .6s ease;
-        border-radius: 100%;}
-        
-}
-
-#footer_index {
+    #footer_index {
     height: 10vh;
     top: 0,  !important;
     width: 100vw;
 
+    }
 }
 
-#main_index{height: 60vh;
-    width: 100vw;
-    overflow-y: auto;
-    
-}
 
-#nav {
-    height: 10vh;
-    
-}
+
+
+
+
