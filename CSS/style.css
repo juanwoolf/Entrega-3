@@ -248,17 +248,19 @@ col {
 .ficha1 dt {
   display: inline-block;
   text-align: justify;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .ficha1 dd {
   display: inline-block;
   text-align: justify;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .ficha1 p {
   font-size: 1rem;
   text-align: justify;
-  font-family: "sausage"; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .container-review h2 {
   font-family: "shadow"; }
